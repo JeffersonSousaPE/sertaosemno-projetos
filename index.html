@@ -4,115 +4,120 @@
   <meta charset="UTF-8" />
   <title>Sertão Sem Nó – Projetos</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Sertão Sem Nó – Projetos culturais: e-books, exposições, oficinas, podcasts e jogos educativos do Sertão do Pajeú." />
+  <meta name="description" content="Sertão Sem Nó – catálogo de criações e difusão da cultura popular dos sertões nordestinos: podcast, jogos, livros e documentários." />
   <style>
-    body {
+    body{
       font-family: Georgia, serif;
-      margin: 0;
-      padding: 0;
-      background: #fafafa;
-      color: #222;
-      line-height: 1.65;
+      margin:0;
+      padding:0;
+      background:#fafafa;
+      color:#222;
+      line-height:1.65;
     }
-    header {
-      padding: 58px 20px 34px;
-      background: #f0eee9;
-      text-align: center;
+    header{
+      padding:58px 20px 34px;
+      background:#f0eee9;
+      text-align:center;
     }
-    header h1 {
-      margin: 0 0 8px;
-      font-weight: normal;
-      font-size: 2.1rem;
+    header h1{
+      margin:0 0 10px;
+      font-weight:normal;
+      font-size:2.1rem;
     }
-    header p {
-      margin: 8px auto 0;
-      max-width: 980px;
+    header p{
+      margin:10px auto 0;
+      max-width:980px;
     }
-    nav {
-      margin-top: 18px;
-      font-size: 1rem;
+    nav{
+      margin-top:18px;
+      font-size:1rem;
     }
-    nav a {
-      color: #222;
-      text-decoration: none;
-      margin: 0 10px;
-      border-bottom: 1px solid transparent;
+    nav a{
+      color:#222;
+      text-decoration:none;
+      margin:0 10px;
+      border-bottom:1px solid transparent;
     }
-    nav a:hover {
-      border-bottom: 1px solid #222;
+    nav a:hover{
+      border-bottom:1px solid #222;
     }
-    section {
-      max-width: 980px;
-      margin: 40px auto;
-      padding: 0 20px;
+    section{
+      max-width:980px;
+      margin:40px auto;
+      padding:0 20px;
     }
-    h2 {
-      font-weight: normal;
-      margin: 0 0 14px;
-      font-size: 1.6rem;
+    h2{
+      font-weight:normal;
+      margin:0 0 14px;
+      font-size:1.6rem;
     }
-    h3 {
-      font-weight: normal;
-      margin: 0 0 6px;
-      font-size: 1.2rem;
+    h3{
+      font-weight:normal;
+      margin:0 0 6px;
+      font-size:1.2rem;
     }
-    .intro {
-      background: #fff;
-      border: 1px solid #e6e6e6;
-      padding: 18px 18px;
+    .intro{
+      background:#fff;
+      border:1px solid #e6e6e6;
+      padding:18px;
     }
-    .grid {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 14px;
+    .grid{
+      display:grid;
+      grid-template-columns:1fr;
+      gap:14px;
     }
-    @media (min-width: 820px) {
-      .grid {
-        grid-template-columns: 1fr 1fr;
-      }
+    @media (min-width:820px){
+      .grid{ grid-template-columns:1fr 1fr; }
     }
-    .card {
-      background: #fff;
-      border: 1px solid #e6e6e6;
-      padding: 18px 18px;
+    .card{
+      background:#fff;
+      border:1px solid #e6e6e6;
+      padding:18px;
     }
-    .meta {
-      color: #444;
-      margin: 8px 0 0;
-      font-size: 0.98rem;
+    .meta{
+      color:#444;
+      margin:10px 0 0;
+      font-size:0.98rem;
     }
-    .button {
-      display: inline-block;
-      margin-top: 14px;
-      padding: 12px 18px;
-      background: #222;
-      color: #fff;
-      text-decoration: none;
+    .tag{
+      display:inline-block;
+      font-size:0.9rem;
+      color:#444;
+      border:1px solid #ddd;
+      padding:3px 8px;
+      margin-top:10px;
     }
-    .button.secondary {
-      background: #444;
+    .button{
+      display:inline-block;
+      margin-top:14px;
+      padding:12px 18px;
+      background:#222;
+      color:#fff;
+      text-decoration:none;
     }
-    .tag {
-      display: inline-block;
-      font-size: 0.9rem;
-      color: #444;
-      border: 1px solid #ddd;
-      padding: 3px 8px;
-      margin-top: 10px;
+    .button.secondary{ background:#444; }
+    .embed{
+      margin-top:14px;
+      border:1px solid #e6e6e6;
+      background:#fff;
+      padding:10px;
     }
-    ul {
-      margin: 10px 0 0 20px;
+    .embed iframe{
+      width:100%;
+      aspect-ratio:16 / 9;
+      height:auto;
+      border:0;
     }
-    footer {
-      margin-top: 60px;
-      padding: 30px 20px;
-      background: #eee;
-      text-align: center;
-      font-size: 0.95rem;
+    footer{
+      margin-top:60px;
+      padding:30px 20px;
+      background:#eee;
+      text-align:center;
+      font-size:0.95rem;
     }
-    .small {
-      font-size: 0.95rem;
-      color: #333;
+    .small{
+      font-size:0.95rem;
+      color:#333;
     }
   </style>
 </head>
@@ -122,35 +127,71 @@
 <header>
   <h1>Sertão Sem Nó – Projetos</h1>
   <p class="small">
-    Um espaço para reunir e divulgar produções culturais, educativas e de memória do Sertão do Pajeú de Pernambuco.
-    Aqui você encontra e-books, exposições, oficinas, podcasts e jogos digitais — e este catálogo será atualizado com novos conteúdos.
+    Criado por Jefferson Sousa, o Sertão Sem Nó é um projeto multidisciplinar dedicado à preservação e à difusão da cultura popular
+    dos sertões nordestinos por meio de documentários, podcasts, jogos digitais, animações, oficinas, pesquisas e ações formativas.
+    O projeto reúne produções premiadas em festivais nacionais e internacionais, conteúdos exibidos em TVs, rádios públicas e eventos culturais
+    de mais de 20 países.
   </p>
 
   <nav>
+    <a href="#destaques">Destaques</a>
     <a href="#catalogo">Catálogo</a>
-    <a href="#evento">Encontro de fim de ano</a>
-    <a href="#proximos">Próximos passos</a>
+    <a href="#video">Documentário</a>
   </nav>
 </header>
 
+<section id="destaques">
+  <h2>Destaques</h2>
+  <div class="grid">
+
+    <div class="card">
+      <h3>Podcast Sertão Sem Nó</h3>
+      <div class="tag">Podcast</div>
+      <p class="meta">
+        Memórias individuais e coletivas dos sertões nordestinos, com os quadros Poetisas do Pajeú e Histórias de Cabeceiras.
+      </p>
+      <a class="button" href="https://open.spotify.com/show/692UvbCTT5sRvgrXPIPJpw?si=22d8b6359de945fe" target="_blank" rel="noopener noreferrer">
+        Ouvir no Spotify
+      </a>
+    </div>
+
+    <div class="card">
+      <h3>Pajeú Encantado – Expansão</h3>
+      <div class="tag">Jogo educativo</div>
+      <p class="meta">
+        Jogo digital educativo com foco em cultura e memória do Pajeú.
+      </p>
+      <a class="button" href="https://play.google.com/store/apps/details?id=br.com.pajeuencantado.game" target="_blank" rel="noopener noreferrer">
+        Ver na Play Store
+      </a>
+    </div>
+
+  </div>
+</section>
+
 <section id="catalogo">
-  <h2>Catálogo de projetos</h2>
+  <h2>Catálogo</h2>
   <div class="intro">
     <p>
-      Abaixo estão os projetos já disponíveis. Cada item possui um link direto para acesso gratuito ou plataforma oficial.
-      Este site, “sertaosemno-projetos”, funciona como um repositório vivo: novos lançamentos serão adicionados aqui.
+      Este site funciona como um acoplador de links e descrições de criações do Sertão Sem Nó.
+      Alguns trabalhos circulam integralmente online; outros existem em diferentes formatos e contextos de exibição.
+      Novos links serão adicionados aqui conforme forem disponibilizados.
+    </p>
+    <p class="small">
+      Observação: cursos e oficinas podem ter distribuição territorial específica conforme parcerias locais.
     </p>
   </div>
 
   <div class="grid" style="margin-top:14px;">
+
     <div class="card">
       <h3>Pajeú Poético: Vozes Femininas e Resistência no Sertão</h3>
-      <div class="tag">E-book + audiobook</div>
+      <div class="tag">E-book</div>
       <p class="meta">
-        Livro digital de poesias autorais de Vivi Maria, em diálogo com a poesia popular e as vivências das mulheres do Sertão do Pajeú.
+        Livro digital de poesias autorais de Vivi Maria, com foco nas vivências e resistências das mulheres do Sertão do Pajeú.
       </p>
       <a class="button" href="https://drive.google.com/file/d/1mqaL-A4JBvP8i2kxwMYgXZC-6TYwj_jI/view?usp=share_link" target="_blank" rel="noopener noreferrer">
-        Acessar o e-book
+        Acessar o e-book (Drive)
       </a>
     </div>
 
@@ -158,78 +199,44 @@
       <h3>Cruzeiro de Itapetim: Cultura, Fauna e Flora</h3>
       <div class="tag">Exposição fotográfica</div>
       <p class="meta">
-        Exposição de José Robernito (Benito) sobre o Cruzeiro: ponto turístico no alto da serra, acessado por escadaria,
-        referência religiosa e também espaço de caminhada e corrida.
+        Exposição de José Robernito (Benito) sobre o Cruzeiro de Itapetim, ponto turístico no topo da serra,
+        com escadaria de acesso, referência religiosa e espaço de caminhada e corrida.
       </p>
       <a class="button secondary" href="#" target="_blank" rel="noopener noreferrer">
-        Abrir exposição (em breve)
+        Abrir exposição (link em breve)
       </a>
-      <p class="meta">Quando o link estiver pronto, substitua o “#” por ele.</p>
     </div>
 
-    <div class="card">
-      <h3>Estratégias de assessoria de imprensa para criações artísticas locais</h3>
-      <div class="tag">Oficina online gratuita</div>
-      <p class="meta">
-        Oficina com Jefferson Sousa, voltada a artistas e profissionais da economia criativa que desejam fortalecer divulgação e presença pública.
-      </p>
-      <a class="button secondary" href="#" target="_blank" rel="noopener noreferrer">
-        Acessar oficina (em breve)
-      </a>
-      <p class="meta">Quando o link estiver pronto, substitua o “#” por ele.</p>
-    </div>
-
-    <div class="card">
-      <h3>Pajeú Encantado – Expansão</h3>
-      <div class="tag">Jogo educativo</div>
-      <p class="meta">
-        Expansão do jogo educativo premiado, com foco em cultura e memória do Pajeú.
-      </p>
-      <a class="button" href="https://play.google.com/store/apps/details?id=br.com.pajeuencantado.game" target="_blank" rel="noopener noreferrer">
-        Ver na Play Store
-      </a>
-    </div>
   </div>
 </section>
 
-<section id="evento">
-  <h2>Encontro de fim de ano – lançamentos e conversas</h2>
+<section id="video">
+  <h2>Documentário</h2>
   <div class="card">
-    <p>
-      O Sertão Sem Nó realiza, em Itapetim, um encontro de encerramento do ano para apresentar lançamentos,
-      compartilhar trajetórias e abrir novas frentes de trabalho cultural no Sertão do Pajeú de Pernambuco.
-    </p>
+    <h3>Pedro Tenório de Lima e a enxada de um poeta iletrado (2021)</h3>
+    <div class="tag">Documentário</div>
     <p class="meta">
-      Data e local: Terça-feira (23/12), às 19h, no Salão de Benito (Rua São Pedro, nº 52, Centro, Itapetim – Rua da Prefeitura). Entrada gratuita.
+      Um filme de Jefferson Sousa, do Sertão Sem Nó.
     </p>
-  </div>
+    <a class="button" href="https://youtu.be/4h_IKHMYVxs?si=ey1xINAcMHcEWgEJ" target="_blank" rel="noopener noreferrer">
+      Assistir no YouTube
+    </a>
 
-  <div class="card">
-    <h3>Programação</h3>
-    <ul>
-      <li>Pré-estreia do episódio em vídeo do podcast Sertão Sem Nó: “A Beata Catarina”, minidocumentário de Jefferson Sousa.</li>
-      <li>Declamações e lançamento do livro digital com audiobook: “Pajeú Poético: Vozes Femininas e Resistência no Sertão”, de Vivi Maria.</li>
-      <li>Exposição fotográfica: “Cruzeiro de Itapetim: Cultura, Fauna e Flora”, de José Robernito (Benito).</li>
-      <li>Disponibilização de oficina gratuita online: “Estratégias de assessoria de imprensa para criações artísticas locais”, com Jefferson Sousa.</li>
-      <li>Lançamento da expansão do jogo educativo: “Pajeú Encantado – Expansão”.</li>
-      <li>Conversa sobre novas temporadas de “Poetisas do Pajeú” e “Histórias de Cabeceiras”, do podcast Sertão Sem Nó.</li>
-    </ul>
-  </div>
-</section>
-
-<section id="proximos">
-  <h2>Próximos passos</h2>
-  <div class="card">
-    <ul>
-      <li>“Criativas do Pajeú” e novas temporadas do podcast Sertão Sem Nó com ampliação das veiculações em rádios.</li>
-      <li>Pré-produções em andamento e novas parcerias firmadas (Xbox Developer Program), com oportunidades de recrutamento de colaboradores locais (por agora, apenas para Unreal Engine e C4D).</li>
-    </ul>
+    <div class="embed" aria-label="Vídeo incorporado do YouTube">
+      <iframe
+        src="https://www.youtube.com/embed/4h_IKHMYVxs?si=ey1xINAcMHcEWgEJ"
+        title="Pedro Tenório de Lima e a enxada de um poeta iletrado (2021)"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+      </iframe>
+    </div>
   </div>
 </section>
 
 <footer>
-  <p>Projeto Sertão Sem Nó</p>
-  <p class="small">Itapetim, Pernambuco</p>
+  <p>Sertão Sem Nó</p>
+  <p class="small">Catálogo de projetos e links. Atualizações contínuas.</p>
 </footer>
 
 </body>
