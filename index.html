@@ -101,6 +101,7 @@
       border:1px solid #e6e6e6;
       background:#fff;
       padding:10px;
+      max-width:640px; /* diminui o tamanho percebido do embed */
     }
     .embed iframe{
       width:100%;
@@ -119,6 +120,17 @@
       font-size:0.95rem;
       color:#333;
     }
+    .contact{
+      margin-top:12px;
+    }
+    .contact a{
+      color:#222;
+      text-decoration:none;
+      border-bottom:1px solid #222;
+    }
+    .contact a:hover{
+      border-bottom-color:transparent;
+    }
   </style>
 </head>
 
@@ -132,6 +144,11 @@
     jogos digitais, animações, oficinas, pesquisas e ações formativas.
     O projeto reúne produções premiadas em festivais nacionais e internacionais,
     conteúdos exibidos em TVs, rádios públicas e eventos culturais de mais de 20 países.
+  </p>
+
+  <p class="contact small">
+    Contato: <a href="mailto:ojeffersonmoraes@gmail.com">ojeffersonmoraes@gmail.com</a> ·
+    Instagram: <a href="https://instagram.com/sertaosemno" target="_blank" rel="noopener noreferrer">@sertaosemno</a>
   </p>
 
   <nav>
@@ -177,7 +194,12 @@
     <p>
       Este site funciona como um acoplador de links e descrições das criações do Sertão Sem Nó.
       Alguns trabalhos estão integralmente disponíveis online; outros existem em contextos
-      específicos de exibição, formação ou circulação territorial.
+      específicos de exibição, formação, circulação territorial e parcerias.
+    </p>
+    <p class="small">
+      Também realizamos ações formativas e oficinas, incluindo atividades de aplicação de jogos educativos em sala de aula,
+      além de disponibilidade para eventos e criações por encomenda (documentários, jogos digitais temáticos e outras produções),
+      via contato.
     </p>
   </div>
 
@@ -208,16 +230,6 @@
       </a>
     </div>
 
-    <div class="card">
-      <h3>Formações e oficinas</h3>
-      <div class="tag">Ações territoriais</div>
-      <p class="meta">
-        Cursos e oficinas do Sertão Sem Nó, voltados à formação cultural e criativa,
-        com distribuição territorial específica para moradores de Itapetim,
-        em parceria com a Secretaria de Cultura.
-      </p>
-    </div>
-
   </div>
 </section>
 
@@ -233,7 +245,7 @@
       Assistir no YouTube
     </a>
 
-    <div class="embed">
+    <div class="embed" aria-label="Vídeo incorporado do YouTube">
       <iframe
         src="https://www.youtube.com/embed/4h_IKHMYVxs?si=ey1xINAcMHcEWgEJ"
         title="Pedro Tenório de Lima e a enxada de um poeta iletrado (2021)"
