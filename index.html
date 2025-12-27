@@ -1,3 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sertão Sem Nó – Projetos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sertão Sem Nó – espaço de criação e difusão das culturas populares dos sertões nordestinos." />
+  <style>
+    body{
+      font-family: Georgia, serif;
+      margin:0;
+      padding:0;
+      background:#fafafa;
+      color:#222;
+      line-height:1.65;
+    }
+    header{
+      padding:56px 20px 34px;
+      background:#f0eee9;
+      text-align:center;
+    }
+    header h1{
+      margin:0 0 10px;
+      font-weight:normal;
+      font-size:2.1rem;
+    }
+    header p{
+      margin:10px auto 0;
+      max-width:980px;
+    }
+    nav{
+      margin-top:18px;
+      font-size:1rem;
+    }
+    nav a{
+      color:#222;
+      text-decoration:none;
+      margin:0 10px;
+      border-bottom:1px solid transparent;
+    }
+    nav a:hover{
+      border-bottom:1px solid #222;
+    }
+    section{
+      max-width:980px;
+      margin:40px auto;
+      padding:0 20px;
+    }
+    h2{
+      font-weight:normal;
+      margin:0 0 14px;
+      font-size:1.6rem;
+    }
+    h3{
+      font-weight:normal;
+      margin:0 0 6px;
+      font-size:1.2rem;
+    }
+    .intro{
+      background:#fff;
+      border:1px solid #e6e6e6;
+      padding:18px;
+    }
+    .grid{
+      display:grid;
+      grid-template-columns:1fr;
+      gap:14px;
+    }
+    @media (min-width:820px){
+      .grid{ grid-template-columns:1fr 1fr; }
+    }
+    .card{
+      background:#fff;
+      border:1px solid #e6e6e6;
+      padding:18px;
+    }
+    .meta{
+      color:#444;
+      margin:10px 0 0;
+      font-size:0.98rem;
+    }
+    .tag{
+      display:inline-block;
+      font-size:0.9rem;
+      color:#444;
+      border:1px solid #ddd;
+      padding:3px 8px;
+      margin-top:10px;
+    }
+    .button{
+      display:inline-block;
+      margin-top:14px;
+      padding:12px 18px;
+      background:#222;
+      color:#fff;
+      text-decoration:none;
+    }
+    .button.secondary{ background:#444; }
+
+    /* embeds pequenos e iguais */
+    .embed{
+      margin-top:14px;
+      border:1px solid #e6e6e6;
+      background:#fff;
+      padding:10px;
+      max-width:520px; /* menor, para não dominar a página */
+    }
+    .embed iframe{
+      width:100%;
+      aspect-ratio:16 / 9;
+      height:auto;
+      border:0;
+    }
+
+    footer{
+      margin-top:60px;
+      padding:30px 20px;
+      background:#eee;
+      text-align:center;
+      font-size:0.95rem;
+    }
+    .small{
+      font-size:0.95rem;
+      color:#333;
+    }
+    .contact{
+      margin-top:12px;
+    }
+    .contact a{
+      color:#222;
+      text-decoration:none;
+      border-bottom:1px solid #222;
+    }
+    .contact a:hover{
+      border-bottom-color:transparent;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Sertão Sem Nó – Projetos</h1>
+  <p class="small">
+    Criado por Jefferson Sousa, o Sertão Sem Nó é um projeto multidisciplinar dedicado à preservação
+    e à difusão da cultura popular dos sertões nordestinos por meio de documentários, podcasts,
+    jogos digitais, animações, oficinas, pesquisas e ações formativas.
+    O projeto reúne produções premiadas em festivais nacionais e internacionais,
+    conteúdos exibidos em TVs, rádios públicas e eventos culturais de mais de 20 países.
+  </p>
+
+  <p class="contact small">
+    Contato: <a href="mailto:ojeffersonmoraes@gmail.com">ojeffersonmoraes@gmail.com</a> ·
+    Instagram: <a href="https://instagram.com/sertaosemno" target="_blank" rel="noopener noreferrer">@sertaosemno</a>
+  </p>
+
+  <nav>
+    <a href="#destaques">Destaques</a>
+    <a href="#catalogo">Catálogo</a>
+    <a href="#documentarios">Documentários</a>
+  </nav>
+</header>
+
+<section id="destaques">
+  <h2>Destaques</h2>
+  <div class="grid">
+
+    <div class="card">
+      <h3>Podcast Sertão Sem Nó</h3>
+      <div class="tag">Podcast</div>
+      <p class="meta">
+        Memórias individuais e coletivas dos sertões nordestinos, com os quadros
+        Poetisas do Pajeú e Histórias de Cabeceiras.
+      </p>
+      <a class="button" href="https://open.spotify.com/show/692UvbCTT5sRvgrXPIPJpw?si=22d8b6359de945fe" target="_blank" rel="noopener noreferrer">
+        Ouvir no Spotify
+      </a>
+    </div>
+
+    <div class="card">
+      <h3>Pajeú Encantado – Expansão</h3>
+      <div class="tag">Jogo educativo</div>
+      <p class="meta">
+        Jogo digital educativo premiado, com foco na cultura e na memória do Sertão do Pajeú.
+      </p>
+      <a class="button" href="https://play.google.com/store/apps/details?id=br.com.pajeuencantado.game" target="_blank" rel="noopener noreferrer">
+        Ver na Play Store
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<section id="catalogo">
+  <h2>Catálogo de criações</h2>
+  <div class="intro">
+    <p>
+      Este site funciona como um acoplador de links e descrições das criações do Sertão Sem Nó.
+      Alguns trabalhos estão integralmente disponíveis online; outros existem em contextos
+      específicos de exibição, formação, circulação territorial e parcerias.
+    </p>
+    <p class="small">
+      Também realizamos ações formativas e oficinas, incluindo atividades de aplicação de jogos educativos em sala de aula,
+      além de disponibilidade para eventos e criações por encomenda (documentários, jogos digitais temáticos e outras produções),
+      via contato.
+    </p>
+  </div>
+
+  <div class="grid" style="margin-top:14px;">
+
+    <div class="card">
+      <h3>Pajeú Poético: Vozes Femininas e Resistência no Sertão</h3>
+      <div class="tag">Livro digital + audiobook</div>
+      <p class="meta">
+        Coletânea de poesias autorais de Vivi Maria, em diálogo com a poesia popular e as vivências
+        das mulheres do Sertão do Pajeú.
+      </p>
+      <a class="button" href="https://drive.google.com/drive/folders/1VOOdUz0jWYEIZDrVYFFODfBVshsgpAzX?usp=share_link" target="_blank" rel="noopener noreferrer">
+        Acessar livro e audiobook
+      </a>
+    </div>
+
+    <div class="card">
+      <h3>Cruzeiro de Itapetim: Cultura, Fauna e Flora</h3>
+      <div class="tag">Exposição fotográfica</div>
+      <p class="meta">
+        Exposição de José Robernito (Benito) sobre o Cruzeiro de Itapetim,
+        ponto turístico no topo da serra, com escadaria de acesso,
+        referência religiosa e espaço de caminhada e corrida.
+      </p>
+      <a class="button" href="https://drive.google.com/drive/folders/1Ww_owsgf9qQBmd_KShj1tGbG2-FNXGjD?usp=share_link" target="_blank" rel="noopener noreferrer">
+        Acessar exposição
+      </a>
+    </div>
+
+  </div>
+</section>
+
 <section id="documentarios">
   <h2>Documentários</h2>
 
@@ -7,67 +245,69 @@
       <h3>A Beata Catarina (2025)</h3>
       <div class="tag">Documentário</div>
       <p class="meta">
-        Filme de Jefferson Sousa, do Sertão Sem Nó.
+        Um filme de Jefferson Sousa, do Sertão Sem Nó.
       </p>
       <a class="button" href="https://youtu.be/CTR16B2H2l8?si=C2qD2WbUV6cvu7U-" target="_blank" rel="noopener noreferrer">
         Assistir no YouTube
       </a>
+      <div class="embed" aria-label="Vídeo incorporado do YouTube">
+        <iframe
+          src="https://www.youtube.com/embed/CTR16B2H2l8?si=ZNv19ALfVXjvDQZo"
+          title="A Beata Catarina (2025)"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen>
+        </iframe>
+      </div>
     </div>
 
     <div class="card">
       <h3>A Torre de Itapetim (2024)</h3>
       <div class="tag">Documentário</div>
       <p class="meta">
-        Documentário sobre a torre da Igreja de São Pedro,
-        marco histórico e afetivo de Itapetim.
+        Um filme de Jefferson Sousa, do Sertão Sem Nó.
       </p>
       <a class="button" href="https://youtu.be/OOMarbfGlFY?si=MPnarSMMTSo-7AoC" target="_blank" rel="noopener noreferrer">
         Assistir no YouTube
       </a>
+      <div class="embed" aria-label="Vídeo incorporado do YouTube">
+        <iframe
+          src="https://www.youtube.com/embed/OOMarbfGlFY?si=tKpAVfhiqiqH8aba"
+          title="A Torre de Itapetim (2024)"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen>
+        </iframe>
+      </div>
     </div>
 
     <div class="card">
       <h3>Pedro Tenório de Lima e a enxada de um poeta iletrado (2021)</h3>
       <div class="tag">Documentário</div>
       <p class="meta">
-        Filme de Jefferson Sousa sobre memória, poesia e trabalho no Sertão do Pajeú.
+        Um filme de Jefferson Sousa, do Sertão Sem Nó.
       </p>
       <a class="button" href="https://youtu.be/4h_IKHMYVxs?si=Pew5ZM4fMz4sPCuN" target="_blank" rel="noopener noreferrer">
         Assistir no YouTube
       </a>
-    </div>
-
-  </div>
-
-  <!-- faixa de embeds sem hierarquia -->
-  <div style="margin-top:40px;">
-    <div class="grid">
-
-      <div class="embed">
-        <iframe
-          src="https://www.youtube.com/embed/CTR16B2H2l8?si=ZNv19ALfVXjvDQZo"
-          title="A Beata Catarina (2025)"
-          allowfullscreen>
-        </iframe>
-      </div>
-
-      <div class="embed">
-        <iframe
-          src="https://www.youtube.com/embed/OOMarbfGlFY?si=tKpAVfhiqiqH8aba"
-          title="A Torre de Itapetim (2024)"
-          allowfullscreen>
-        </iframe>
-      </div>
-
-      <div class="embed">
+      <div class="embed" aria-label="Vídeo incorporado do YouTube">
         <iframe
           src="https://www.youtube.com/embed/4h_IKHMYVxs?si=Pew5ZM4fMz4sPCuN"
           title="Pedro Tenório de Lima e a enxada de um poeta iletrado (2021)"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen>
         </iframe>
       </div>
-
     </div>
-  </div>
 
+  </div>
 </section>
+
+<footer>
+  <p>Sertão Sem Nó</p>
+  <p class="small">Espaço de criação, memória e difusão cultural dos sertões nordestinos.</p>
+</footer>
+
+</body>
+</html>
