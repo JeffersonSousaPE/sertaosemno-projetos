@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -95,7 +96,18 @@
       color:#fff;
       text-decoration:none;
     }
-    .button.secondary{ background:#444; }
+    .button.secondary{
+      background:#444;
+    }
+
+    /* Destaque da versão recomendada do jogo */
+    .button.recommended{
+      display:block;
+      box-sizing:border-box;
+      text-align:center;
+      padding:16px 18px;
+      font-weight:bold;
+    }
 
     /* embeds pequenos e iguais */
     .embed{
@@ -183,8 +195,17 @@
       <p class="meta">
         Jogo digital educativo premiado, com foco na cultura e na memória do Sertão do Pajeú.
       </p>
-      <a class="button" href="https://play.google.com/store/apps/details?id=br.com.pajeuencantado.game" target="_blank" rel="noopener noreferrer">
-        Ver na Play Store
+
+      <p class="meta">
+        <strong>Versão recomendada: Android (Google Play).</strong>
+      </p>
+
+      <a class="button recommended" href="https://play.google.com/store/apps/details?id=br.com.pajeuencantado.game" target="_blank" rel="noopener noreferrer">
+        Baixar na Play Store
+      </a>
+
+      <a class="button secondary" href="https://drive.google.com/drive/folders/1CbTFVaY74I_4GoxJaPLSVtgIMn_UuUzX?usp=share_link" target="_blank" rel="noopener noreferrer">
+        Baixar para Windows
       </a>
     </div>
 
